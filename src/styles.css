@@ -1,0 +1,93 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.wrapper {
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  max-width: 90vw;
+  margin: 0;
+}
+
+.jokeWrapper {
+  display: flex;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.jokeWrapper img {
+  margin-right: 1rem;
+}
+
+label p {
+  margin: 0 0.5rem 0 0;
+  font-size: 0.8rem;
+}
+
+label {
+  width: 90vw;
+}
+
+.comments {
+  margin-top: 2rem;
+  width: 90vw;
+  margin: 1rem auto;
+}
+
+.comment {
+  display: flex;
+}
+
+.useIco {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.comments .comment:nth-child(odd) {
+  background-color: rgb(125, 150, 136);
+}
+
+.userName {
+  margin: 0;
+  padding: 0;
+  text-align: start;
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 12px;
+  margin-right: 0.5rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.comment {
+  margin-top: 0;
+  margin-bottom: 0;
+  white-space: pre-wrap;
+  font-size: 14px;
+}
+
+.date {
+  color: #ccc;
+  font-size: 12px;
+  margin-top: 0.75rem;
+}
+
+.buttonsWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.commentsWrapper {
+  padding-bottom: 4rem;
+}
+
+.MuiOutlinedInput-input {
+  padding: 8.5px 26px 8.5px 14px !important;
+}
